@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D748BC69245F69260035B9D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D748BC68245F69260035B9D0 /* Assets.xcassets */; };
+		D748BC6B245F69600035B9D0 /* logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D748BC6A245F69600035B9D0 /* logo.jpeg */; };
+		D748BC6D245F6A580035B9D0 /* download.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D748BC6C245F6A580035B9D0 /* download.jpg */; };
+		D748BC6F245F6C120035B9D0 /* New Project.png in Resources */ = {isa = PBXBuildFile; fileRef = D748BC6E245F6C120035B9D0 /* New Project.png */; };
 		D7586BF6240423200023E8AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7586BF5240423200023E8AD /* AppDelegate.swift */; };
 		D7586BF8240423200023E8AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7586BF7240423200023E8AD /* SceneDelegate.swift */; };
 		D7586BFA240423200023E8AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7586BF9240423200023E8AD /* ViewController.swift */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D748BC68245F69260035B9D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D748BC6A245F69600035B9D0 /* logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpeg; sourceTree = "<group>"; };
+		D748BC6C245F6A580035B9D0 /* download.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpg; sourceTree = "<group>"; };
+		D748BC6E245F6C120035B9D0 /* New Project.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "New Project.png"; sourceTree = "<group>"; };
 		D7586BF2240423200023E8AD /* Dungeon Escape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dungeon Escape.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7586BF5240423200023E8AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7586BF7240423200023E8AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,9 +111,13 @@
 				D7586BF7240423200023E8AD /* SceneDelegate.swift */,
 				D7586BF9240423200023E8AD /* ViewController.swift */,
 				D7586BFB240423200023E8AD /* Main.storyboard */,
+				D748BC6A245F69600035B9D0 /* logo.jpeg */,
+				D748BC6C245F6A580035B9D0 /* download.jpg */,
+				D748BC6E245F6C120035B9D0 /* New Project.png */,
 				D7586BFE240423230023E8AD /* Assets.xcassets */,
 				D7586C00240423230023E8AD /* LaunchScreen.storyboard */,
 				D7586C03240423230023E8AD /* Info.plist */,
+				D748BC68245F69260035B9D0 /* Assets.xcassets */,
 			);
 			path = "Dungeon Escape";
 			sourceTree = "<group>";
@@ -232,8 +244,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D748BC6F245F6C120035B9D0 /* New Project.png in Resources */,
+				D748BC6B245F69600035B9D0 /* logo.jpeg in Resources */,
+				D748BC6D245F6A580035B9D0 /* download.jpg in Resources */,
 				D7586C02240423230023E8AD /* LaunchScreen.storyboard in Resources */,
 				D7586BFF240423230023E8AD /* Assets.xcassets in Resources */,
+				D748BC69245F69260035B9D0 /* Assets.xcassets in Resources */,
 				D7586BFD240423200023E8AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
